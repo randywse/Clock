@@ -1,0 +1,16 @@
+﻿<Window x:Class="CU_Direct_Clock.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Clock" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="EasternTime" Loaded="LoadTime" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="Loading.." VerticalAlignment="Top" Width="257" Margin="215,57,0,0" BorderThickness="0"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="60,57,0,0" TextWrapping="Wrap" Text="Eastern Time - " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="CentralTime" Loaded="LoadTime" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="Loading.." VerticalAlignment="Top" Width="257" Margin="215,107,0,0" BorderThickness="0"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="60,107,0,0" TextWrapping="Wrap" Text="Central Time - " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="MountainTime" Loaded="LoadTime" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="Loading.." VerticalAlignment="Top" Width="257" Margin="215,159,0,0" BorderThickness="0"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="60,160,0,0" TextWrapping="Wrap" Text="Mountain Time - " VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="PacificTime" Loaded="LoadTime" HorizontalAlignment="Left" Height="24" TextWrapping="Wrap" Text="Loading.." VerticalAlignment="Top" Width="257" Margin="215,211,0,0" BorderThickness="0"/>
+        <TextBlock HorizontalAlignment="Left" Height="24" Margin="60,212,0,0" TextWrapping="Wrap" Text="Pacific Time - " VerticalAlignment="Top" Width="120"/>
+        <TextBox Name="SystemTime" Loaded="LoadTime" HorizontalAlignment="Left" Height="26" TextWrapping="Wrap" Text="CurrentTimezone" VerticalAlignment="Top" Width="276" Margin="60,259,0,0" BorderThickness="0"/>
+    </Grid>
+</Window>
